@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    background-color: blanchedalmond;
+}
+.header__lang-switcher {
+    margin-right: auto;
+}
