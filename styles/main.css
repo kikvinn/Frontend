@@ -1,7 +1,117 @@
-.header {
-    display: flex;
-    background-color: blanchedalmond;
-}
-.header__lang-switcher {
-    margin-right: auto;
-}
+.footer {}
+
+.footer__contacts {}
+
+.footer__contacts-item {}
+
+.footer__contacts-link {}
+
+.footer__contacts-list {}
+
+.footer__contacts-list-item {}
+
+.footer__contacts-text {}
+
+.footer__contacts-title {}
+
+.footer__legal {}
+
+.footer__legal-item {}
+
+.footer__legal-link {}
+
+.footer__legal-list {}
+
+.footer__legal-list-item {}
+
+.footer__legal-title {}
+
+.footer__social-icon {}
+
+.footer__social-link {}
+
+.footer__socials {}
+
+.header {}
+
+.header__button {}
+
+.header__contacts {}
+
+.header__email {}
+
+.header__logo {}
+
+.header__nav {}
+
+.header__nav-item {}
+
+.header__nav-link {}
+
+.header__nav-list {}
+
+.header__phone {}
+
+.info {}
+
+.info__heading {}
+
+.info__text {}
+
+.main {}
+
+.main__info {}
+
+.main__news {}
+
+.main__records {}
+
+.main__slider {}
+
+.main__socials {}
+
+.main__title {}
+
+.main__title-heading {}
+
+.main__title-image {}
+
+.news {}
+
+.news__image {}
+
+.news__item {}
+
+.news__item-link {}
+
+.news__link {}
+
+.news__list {}
+
+.news__text {}
+
+.records {}
+
+.records__item {}
+
+.records__item-link {}
+
+.records__link {}
+
+.records__list {}
+
+.slider {}
+
+.slider__image {}
+
+.slider__item {}
+
+.slider__link {}
+
+.socials {}
+
+.socials__icon {}
+
+.socials__link {}
+
+.socials__link--icon {}

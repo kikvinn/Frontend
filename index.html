@@ -1,38 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>Формула 1</title>
+    <title>Формула-1</title>
 </head>
 
 <body>
     <header class="header">
-
-        <img class="header__logo" src="images/F1_logo.svg" height="13%" width="13%">
-
-        <ul class="header__lang-switcher">
-            <li>
-                <a class="header__lang-switcher-link" href="url">en</a>
-            </li>
-            <li>
-                <a class="header__lang-switcher-link" href="url">ru</a>
-            </li>
-        </ul>
-
-        <ul class="header__comm-info">
-            <li>
-                <a class="header__comm-info-link" href="tel:+77777777777">+77777777777</a>
-            </li>
-            <li>
-                <a class="header__comm-info__link" href="mailto:f1@mail.ru">f1@mail.ru</a>
-            </li>
-        </ul>
-        <a href="http//google.com">Как поступить</a>
-
+        <div class="header__logo">
+            <img src="images/F1.svg" alt="Логотип Формулы-1">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-link" href="">РУ</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="">EN</a></li>
+            </ul>
+        </nav>
+        <div class="header__contacts">
+            <a class="header__phone" href="tel:+77777777777">+77777777777</a>
+            <a class="header__email" href="mailto:F1@mail.ru">F1@mail.ru</a>
+        </div>
+        <a class="header__button" href="">Купить билеты</a>
     </header>
+    
+    <main class="main">
+        <section class="slider main__slider">
+            <div class="slider__item">
+                <img class="slider__image" src="" alt="slide1">
+                <a class="slider__link" href="">1</a>
+            </div>
+            <div class="slider__item">
+                <img class="slider__image" src="" alt="slide2">
+                <a class="slider__link" href="">2</a>
+            </div>
+            <div class="slider__item">
+                <img class="slider__image" src="" alt="slide3">
+                <a class="slider__link" href="">3</a>
+            </div>
+            <div class="slider__item">
+                <img class="slider__image" src="" alt="slide4">
+                <a class="slider__link" href="">4</a>
+            </div>
+            <div class="slider__item">
+                <img class="slider__image" src="" alt="slide5">
+                <a class="slider__link" href="">5</a>
+            </div>
+        </section>
+        
+        <section class="main__title">
+            <h1 class="main__title-heading">Формула 1 - Это страсть</h1>
+            <img class="main__title-image" src="" alt="Формула 1 - Это страсть">
+        </section>
+        
+        <section class="info main__info">
+            <h2 class="info__heading">Формула 1 - это главное автомобильное шоу</h2>
+            <p class="info__text">да-да, подтверждаю</p>
+        </section>
+        
+        <section class="socials main__socials">
+            <a class="socials__link" href=""></a>
+            <a class="socials__link" href=""></a>
+            <a class="socials__link socials__link--icon" href=""><img class="socials__icon" src="" alt="TG"></a>
+            <a class="socials__link socials__link--icon" href=""><img class="socials__icon" src="" alt="VK"></a>
+            <a class="socials__link socials__link--icon" href=""><img class="socials__icon" src="" alt="YT"></a>
+        </section>
+        
+        <section class="records main__records">
+            <a class="records__link" href="">Записи прошлых гонок</a>
+            <ul class="records__list">
+                <li class="records__item"><a class="records__item-link" href="">запись за 20.04</a></li>
+                <li class="records__item"><a class="records__item-link" href="">запись за 21.05</a></li>
+                <li class="records__item"><a class="records__item-link" href="">запись за 22.06</a></li>
+                <li class="records__item"><a class="records__item-link" href="">запись за 23.07</a></li>
+                <li class="records__item"><a class="records__item-link" href="">запись за 24.08</a></li>
+            </ul>
+        </section>
+        
+        <section class="news main__news">
+            <a class="news__link" href=""></a>
+            <div class="news__list">
+                <div class="news__item">
+                    <img class="news__image" src="" alt="">
+                    <a class="news__item-link" href=""></a>
+                    <p class="news__text"></p>
+                </div>
+                <div class="news__item">
+                    <img class="news__image" src="" alt="">
+                    <a class="news__item-link" href=""></a>
+                    <p class="news__text"></p>
+                </div>
+                <div class="news__item">
+                    <img class="news__image" src="" alt="">
+                    <a class="news__item-link" href=""></a>
+                    <p class="news__text"></p>
+                </div>
+                <div class="news__item">
+                    <img class="news__image" src="" alt="">
+                    <a class="news__item-link" href=""></a>
+                    <p class="news__text"></p>
+                </div>
+                <div class="news__item">
+                    <img class="news__image" src="" alt="">
+                    <a class="news__item-link" href=""></a>
+                    <p class="news__text"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <section class="footer__socials">
+            <a class="footer__social-link" href=""><img class="footer__social-icon" src="" alt=""></a>
+            <a class="footer__social-link" href=""></a>
+        </section>
+        
+        <section class="footer__contacts">
+            <div class="footer__contacts-item">
+                <p class="footer__contacts-title">Телефон и почта</p>
+                <ul class="footer__contacts-list">
+                    <li class="footer__contacts-list-item"><a class="footer__contacts-link" href="">+12345678987</a></li>
+                </ul>
+            </div>
+            <div class="footer__contacts-item">
+                <p class="footer__contacts-title">Адреса</p>
+                <ul class="footer__contacts-list">
+                    <li class="footer__contacts-list-item"><p class="footer__contacts-text">Малая Пионерская</p></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="footer__legal">
+            <div class="footer__legal-item">
+                <p class="footer__legal-title">Юр. Информация</p>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Публичная оферта</a></li>
+                </ul>
+            </div>
+            <div class="footer__legal-item">
+                <p class="footer__legal-title">Рекламодателям</p>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Договор о erid</a></li>
+                </ul>
+            </div>
+            <div class="footer__legal-item">
+                <p class="footer__legal-title">Организаторам</p>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Правила безопасности</a></li>
+                </ul>
+            </div>
+            <div class="footer__legal-item">
+                <p class="footer__legal-title">Покупателям</p>
+                <ul class="footer__legal-list">
+                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Льготы</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
 </body>
-
 </html>
