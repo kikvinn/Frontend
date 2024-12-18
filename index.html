@@ -1,200 +1,252 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Формула-1</title>
-</head>
+  </head>
 
-<body>
+  <body id="top">
     <header class="header">
-        <div class="header__logo">
-            <img src="./images/F1_logo.svg" alt="Логотип Формулы-1">
+      <div class="header__logo">
+        <img src="./images/F1_logo.svg" alt="Логотип Формулы-1" />
+      </div>
+      <div class="header__right">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="">РУ</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="">EN</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__contacts">
+          <a class="header__phone" href="tel:+77777777777">+77777777777</a>
+          <a class="header__email" href="mailto:F1@mail.ru">F1@mail.ru</a>
         </div>
-        <div class="header__right">
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a class="header__nav-link" href="">РУ</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="">EN</a></li>
-                </ul>
-            </nav>
-            <div class="header__contacts">
-                <a class="header__phone" href="tel:+77777777777">+77777777777</a>
-                <a class="header__email" href="mailto:F1@mail.ru">F1@mail.ru</a>
-            </div>
-            <a class="header__button" href="">Купить билеты</a>
-        </div>
-
+        <a class="header__button" href="">Купить билеты</a>
+      </div>
     </header>
 
     <main class="main">
-        <section class="slider main__slider swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="#" class="slider__custom">
-                        <img src="./images/image.png" alt="slide1">
-                        <!-- <span class="">1</span>  вот тут короче даем так> -->
-                    </a>
+      <section class="slider main__slider swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slider__item">
+            <a href="#" class="slider__custom">
+              <img class="slider__custom--img" src="./images/image_slider1.png" alt="slide1" />
+              <!-- <span class="">1</span>  вот тут короче даем так> -->
+              <span class="slider__custom--text">1</span>
+            </a>
+          </div>
+          <div class="swiper-slide slider__item">
+            <a href="#" class="slider__custom">
+              <img class="slider__custom--img" src="./images/image_slider2.png" alt="slide2" />
 
-                </div>
-                <div class="swiper-slide">
-                    <div class="slider__custom">
-                        <a>2<img src="./images/image copy.png" alt="slide2"></a>
-                    </div>
+              <span class="slider__custom--text">2</span>
+            </a>
+          </div>
+          <div class="swiper-slide slider__item">
+            <a href="#" class="slider__custom">
+              <img class="slider__custom--img" src="./images/image_slider3.png" alt="slide3" />
 
-                </div>
-                <div class="swiper-slide">
-                    <div class="slider__custom">
-                        <a>3<img src="./images/image copy 2.png" alt="slide3"></a>
-                    </div>
+              <span class="slider__custom--text">3</span>
+            </a>
+          </div>
+          <div class="swiper-slide slider__item">
+            <a href="#" class="slider__custom">
+              <img class="slider__custom--img" src="./images/image_slider4.png" alt="slide4" />
 
-                </div>
-                <div class="swiper-slide">
-                    <div class="slider__custom">
-                        <a>4<img src="./images/image copy 3.png" alt="slide4"></a>
-                    </div>
+              <span class="slider__custom--text">4</span>
+            </a>
+          </div>
+          <div class="swiper-slide slider__item">
+            <a href="#" class="slider__custom">
+              <img class="slider__custom--img" src="./images/image_slider5.png" alt="slide5" />
 
-                </div>
-                <div class="swiper-slide">
-                    <div class="slider__custom">
-                        <a>5<img src="./images/image copy 4.png" alt="slide5"></a>
-                    </div>
+              <span class="slider__custom--text">5</span>
+            </a>
+          </div>
+        </div>
+      </section>
 
-                </div>
-            </div>
-        </section>
+      <section class="main__title">
+        <h1 class="main__title-heading">Формула 1 - Это страсть</h1>
+        <img
+          class="main__title-image"
+          src="./images/F1.svg"
+          alt="Формула 1 - Это страсть"
+        />
+      </section>
 
-        <section class="main__title">
-            <h1 class="main__title-heading">Формула 1 - Это страсть</h1>
-            <img class="main__title-image" src="./images/F1.svg" alt="Формула 1 - Это страсть">
-        </section>
+      <section class="info main__info">
+        <h2 class="info__heading">Формула 1 - это главное автомобильное шоу</h2>
+        <p class="info__text">
+          Забудь о рутине! На нашем сайте ты найдешь все, что нужно настоящему
+          фанату Формулы 1: Самые свежие новости: Будь в курсе всех событий — от
+          результатов гонок и последних трансферов до интригующих закулисных
+          историй. Мы следим за каждой секундой и предоставляем тебе самую
+          актуальную и достоверную информацию.Результаты гонок и календарь: Не
+          пропусти ни одной гонки! У нас ты найдешь полный календарь
+          сезона,результаты каждой гонки, а также подробную статистику пилотов и
+          команд. Грандиозные фото и видео: Почувствуй всю мощь и красоту
+          Формулы 1 благодаря нашим эксклюзивным фото и видеоматериалам с трасс
+          мира. Мы предлагаем тебе захватывающие моменты гонок, интервью с
+          пилотами и многое другое.
+        </p>
+      </section>
 
-        <section class="info main__info">
-            <h2 class="info__heading">Формула 1 - это главное автомобильное шоу</h2>
-            <p class="info__text">Забудь о рутине! На нашем сайте ты найдешь все, что нужно настоящему фанату Формулы 1:
-                Самые свежие новости: Будь в курсе всех событий — от результатов гонок и последних трансферов до
-                интригующих закулисных историй. Мы следим за каждой секундой и предоставляем тебе самую актуальную и
-                достоверную информацию.Результаты гонок и календарь: Не пропусти ни одной гонки! У нас ты найдешь полный
-                календарь сезона,
-                результаты каждой гонки, а также подробную статистику пилотов и команд.
-                Грандиозные фото и видео: Почувствуй всю мощь и красоту Формулы 1 благодаря нашим эксклюзивным фото и
-                видеоматериалам с трасс мира. Мы предлагаем тебе захватывающие моменты гонок, интервью с пилотами и
-                многое другое.</p>
-        </section>
+      <section class="socials main__socials">
+        <a class="socials__link socials__link--text" href="">Как купить</a>
+        <a class="socials__link socials__link--text" href="">Когда гонка</a>
+        <a class="socials__link socials__link--icon" href=""
+          ><img
+            class="socials__icon"
+            src="./images/vk-logo-svgrepo-com.svg"
+            alt="VK"
+        /></a>
+        <a class="socials__link socials__link--icon" href=""
+          ><img
+            class="socials__icon"
+            src="./images/telegram-svgrepo-com.svg"
+            alt="TG"
+        /></a>
+        <a class="socials__link socials__link--icon" href=""
+          ><img
+            class="socials__icon"
+            src="./images/youtube-svgrepo-com.svg"
+            alt="YT"
+        /></a>
+      </section>
 
-        <section class="socials main__socials">
-            <a class="socials__link socials__link--text" href="">Как купить</a>
-            <a class="socials__link socials__link--text" href="">Когда гонка</a>
-            <a class="socials__link socials__link--icon" href=""><img class="socials__icon"
-                    src="./images/vk-logo-svgrepo-com.svg" alt="VK"></a>
-            <a class="socials__link socials__link--icon" href=""><img class="socials__icon"
-                    src="./images/telegram-svgrepo-com.svg" alt="TG"></a>
-            <a class="socials__link socials__link--icon" href=""><img class="socials__icon"
-                    src="./images/youtube-svgrepo-com.svg" alt="YT"></a>
-        </section>
+      <section class="records main__records">
+        <a class="records__link" href="">Записи прошлых гонок</a>
+        <ul class="records__list">
+          <li class="records__item">
+            <a class="records__item-link" href="">запись за 20.04</a>
+          </li>
+          <li class="records__item">
+            <a class="records__item-link" href="">запись за 21.05</a>
+          </li>
+          <li class="records__item">
+            <a class="records__item-link" href="">запись за 22.06</a>
+          </li>
+          <li class="records__item">
+            <a class="records__item-link" href="">запись за 23.07</a>
+          </li>
+          <li class="records__item">
+            <a class="records__item-link" href="">запись за 24.08</a>
+          </li>
+        </ul>
+      </section>
 
-        <section class="records main__records">
-            <a class="records__link" href="">Записи прошлых гонок</a>
-            <ul class="records__list">
-                <li class="records__item"><a class="records__item-link" href="">запись за 20.04</a></li>
-                <li class="records__item"><a class="records__item-link" href="">запись за 21.05</a></li>
-                <li class="records__item"><a class="records__item-link" href="">запись за 22.06</a></li>
-                <li class="records__item"><a class="records__item-link" href="">запись за 23.07</a></li>
-                <li class="records__item"><a class="records__item-link" href="">запись за 24.08</a></li>
-            </ul>
-        </section>
-
-        <section class="news main__news">
-            <a class="news__link" href=""></a>
-            <div class="news__list">
-                <div class="news__item">
-                    <img class="news__image" src="" alt="">
-                    <a class="news__item-link" href="">Макуин разбился на повороте</a>
-                    <p class="news__text">читайте у нас </p>
-                </div>
-                <div class="news__item">
-                    <img class="news__image" src="" alt="">
-                    <a class="news__item-link" href="">Гуидо стал топовым автомехаником</a>
-                    <p class="news__text">читайте у нас </p>
-                </div>
-                <div class="news__item">
-                    <img class="news__image" src="" alt="">
-                    <a class="news__item-link" href="">Тачико стал ведром</a>
-                    <p class="news__text">читайте у нас </p>
-                </div>
-                <div class="news__item">
-                    <img class="news__image" src="" alt="">
-                    <a class="news__item-link" href="">Буханка запрещена к производству</a>
-                    <p class="news__text">читайте у нас </p>
-                </div>
-                <div class="news__item">
-                    <img class="news__image" src="" alt="">
-                    <a class="news__item-link" href="">Первая новость</a>
-                    <p class="news__text">читайте у нас </p>
-                </div>
-            </div>
-        </section>
+      <section class="news main__news">
+        <a class="news__link" href=""></a>
+        <div class="news__list">
+          <div class="news__item">
+            <img class="news__image" src="" alt="" />
+            <a class="news__item-link" href="">Макуин разбился на повороте</a>
+            <p class="news__text">читайте у нас</p>
+          </div>
+          <div class="news__item">
+            <img class="news__image" src="" alt="" />
+            <a class="news__item-link" href="">
+              Гуидо стал топовым автомехаником
+            </a>
+            <p class="news__text">читайте у нас</p>
+          </div>
+          <div class="news__item">
+            <img class="news__image" src="" alt="" />
+            <a class="news__item-link" href="">Тачико стал ведром</a>
+            <p class="news__text">читайте у нас</p>
+          </div>
+          <div class="news__item">
+            <img class="news__image" src="" alt="" />
+            <a class="news__item-link" href="">
+              Буханка запрещена к производству
+            </a>
+            <p class="news__text">читайте у нас</p>
+          </div>
+          <div class="news__item">
+            <img class="news__image" src="" alt="" />
+            <a class="news__item-link" href="">Первая новость</a>
+            <p class="news__text">читайте у нас</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <section class="footer__socials">
-            <a class="footer__social-link" href=""><img class="footer__social-icon" src="" alt=""></a>
-            <a class="footer__social-link" href=""></a>
-        </section>
+      <section class="footer__socials">
+        <a class="footer__social-link" href="">
+          <img class="footer__social-icon" src="" alt="" />
+        </a>
+        <a class="footer__social-link" href=""></a>
+      </section>
 
-        <section class="footer__contacts">
-            <div class="footer__contacts-item">
-                <p class="footer__contacts-title">Телефон и почта</p>
-                <ul class="footer__contacts-list">
-                    <li class="footer__contacts-list-item"><a class="footer__contacts-link" href="">+12345678987</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__contacts-item">
-                <p class="footer__contacts-title">Адреса</p>
-                <ul class="footer__contacts-list">
-                    <li class="footer__contacts-list-item">
-                        <p class="footer__contacts-text">Малая Пионерская</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section class="footer__contacts">
+        <div class="footer__contacts-item">
+          <p class="footer__contacts-title">Телефон и почта</p>
+          <ul class="footer__contacts-list">
+            <li class="footer__contacts-list-item">
+              <a class="footer__contacts-link" href="">+12345678987</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contacts-item">
+          <p class="footer__contacts-title">Адреса</p>
+          <ul class="footer__contacts-list">
+            <li class="footer__contacts-list-item">
+              <p class="footer__contacts-text">Малая Пионерская</p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="footer__legal">
-            <div class="footer__legal-item">
-                <p class="footer__legal-title">Юр. Информация</p>
-                <ul class="footer__legal-list">
-                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Публичная оферта</a></li>
-                </ul>
-            </div>
-            <div class="footer__legal-item">
-                <p class="footer__legal-title">Рекламодателям</p>
-                <ul class="footer__legal-list">
-                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Договор о erid</a></li>
-                </ul>
-            </div>
-            <div class="footer__legal-item">
-                <p class="footer__legal-title">Организаторам</p>
-                <ul class="footer__legal-list">
-                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Правила безопасности</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__legal-item">
-                <p class="footer__legal-title">Покупателям</p>
-                <ul class="footer__legal-list">
-                    <li class="footer__legal-list-item"><a class="footer__legal-link" href="">Льготы</a></li>
-                </ul>
-            </div>
-        </section>
+      <section class="footer__legal">
+        <div class="footer__legal-item">
+          <p class="footer__legal-title">Юр. Информация</p>
+          <ul class="footer__legal-list">
+            <li class="footer__legal-list-item">
+              <a class="footer__legal-link" href="">Публичная оферта</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__legal-item">
+          <p class="footer__legal-title">Рекламодателям</p>
+          <ul class="footer__legal-list">
+            <li class="footer__legal-list-item">
+              <a class="footer__legal-link" href="">Договор о erid</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__legal-item">
+          <p class="footer__legal-title">Организаторам</p>
+          <ul class="footer__legal-list">
+            <li class="footer__legal-list-item">
+              <a class="footer__legal-link" href="">Правила безопасности</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__legal-item">
+          <p class="footer__legal-title">Покупателям</p>
+          <ul class="footer__legal-list">
+            <li class="footer__legal-list-item">
+              <a class="footer__legal-link" href="">Льготы</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
     <script src="./scripts/swipper-lib.js"></script>
     <script src="./scripts/swipper.js"></script>
-
-</body>
-
+    <a class="scroll__up" href="#top"></a>
+  </body>
 </html>
