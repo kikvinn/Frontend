@@ -31,13 +31,19 @@ a:hover {
   position: fixed;
   border: none;
   z-index: 99;
-  padding: 20px;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   bottom: 20px;
   left: 20px;
-  background-color: blue;
+  background-color: #1145FA;
   border-radius: 50%;
   outline: none;
   cursor: pointer;
+  color: #FA4411;
+  font-size: 30px;
 }
 
 /* Responsive Adjustments */

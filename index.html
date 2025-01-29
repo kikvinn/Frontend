@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
-
+    <link rel="stylesheet" href="./styles/preloader.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -13,9 +13,14 @@
   </head>
 
   <body id="top">
+
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+
     <header class="header">
       <div class="header__logo">
-        <img src="./images/F1_logo.svg" alt="Логотип Формулы-1" />
+        <img src="./images/logos/F1_logo.svg" alt="Логотип Формулы-1" />
       </div>
       <div class="header__right">
         <nav class="header__nav">
@@ -41,35 +46,35 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide slider__item">
             <a href="#" class="slider__custom">
-              <img class="slider__custom--img" src="./images/image_slider1.png" alt="slide1" />
+              <img class="slider__custom--img" src="./images/slides/image_slider1.png" alt="slide1" />
               <!-- <span class="">1</span>  вот тут короче даем так> -->
               <span class="slider__custom--text">1</span>
             </a>
           </div>
           <div class="swiper-slide slider__item">
             <a href="#" class="slider__custom">
-              <img class="slider__custom--img" src="./images/image_slider2.png" alt="slide2" />
+              <img class="slider__custom--img" src="./images/slides/image_slider2.png" alt="slide2" />
 
               <span class="slider__custom--text">2</span>
             </a>
           </div>
           <div class="swiper-slide slider__item">
             <a href="#" class="slider__custom">
-              <img class="slider__custom--img" src="./images/image_slider3.png" alt="slide3" />
+              <img class="slider__custom--img" src="./images/slides/image_slider3.png" alt="slide3" />
 
               <span class="slider__custom--text">3</span>
             </a>
           </div>
           <div class="swiper-slide slider__item">
             <a href="#" class="slider__custom">
-              <img class="slider__custom--img" src="./images/image_slider4.png" alt="slide4" />
+              <img class="slider__custom--img" src="./images/slides/image_slider4.png" alt="slide4" />
 
               <span class="slider__custom--text">4</span>
             </a>
           </div>
           <div class="swiper-slide slider__item">
             <a href="#" class="slider__custom">
-              <img class="slider__custom--img" src="./images/image_slider5.png" alt="slide5" />
+              <img class="slider__custom--img" src="./images/slides/image_slider5.png" alt="slide5" />
 
               <span class="slider__custom--text">5</span>
             </a>
@@ -81,7 +86,7 @@
         <h1 class="main__title-heading">Формула 1 - Это страсть</h1>
         <img
           class="main__title-image"
-          src="./images/F1.svg"
+          src="./images/logos/F1.svg"
           alt="Формула 1 - Это страсть"
         />
       </section>
@@ -109,19 +114,19 @@
         <a class="socials__link socials__link--icon" href=""
           ><img
             class="socials__icon"
-            src="./images/vk-logo-svgrepo-com.svg"
+            src="./images/logos/vk-logo-svgrepo-com.svg"
             alt="VK"
         /></a>
         <a class="socials__link socials__link--icon" href=""
           ><img
             class="socials__icon"
-            src="./images/telegram-svgrepo-com.svg"
+            src="./images/logos/telegram-svgrepo-com.svg"
             alt="TG"
         /></a>
         <a class="socials__link socials__link--icon" href=""
           ><img
             class="socials__icon"
-            src="./images/youtube-svgrepo-com.svg"
+            src="./images/logos/youtube-svgrepo-com.svg"
             alt="YT"
         /></a>
       </section>
@@ -245,8 +250,9 @@
         </div>
       </section>
     </footer>
+    <script src="./scripts/preloader.js"></script>
     <script src="./scripts/swipper-lib.js"></script>
     <script src="./scripts/swipper.js"></script>
-    <a class="scroll__up" href="#top"></a>
+    <a class="scroll__up" href="#top">↑</a>
   </body>
 </html>
