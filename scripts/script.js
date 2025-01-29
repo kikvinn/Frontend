@@ -36,7 +36,7 @@ function createCardTemplate(cardData) {
   `;
 }
 
-function renderCards(containerSelector = '.cards-container') {
+function renderCards(containerSelector = 'news__list') {
   const container = document.querySelector(containerSelector);
   if (!container) return;
   
@@ -49,3 +49,9 @@ function renderCards(containerSelector = '.cards-container') {
     .map(card => createCardTemplate(card))
     .join('');
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderCards();
+  // Можно добавить обработчики событий
+  
+});
