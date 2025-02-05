@@ -29,29 +29,29 @@ const cards = {
 function createCardTemplate(cardData) {
   return `
     <div class="news__item">
-      <img class="news__image" src="${cardData.img}" alt="" />
+      <img class="news__image" src="${cardData.img}" alt="${cardData.title}" />
       <a class="news__item-link" href="">${cardData.title}</a>
       <p class="news__text">${cardData.description}</p>
-    </div>  
+    </div>
   `;
 }
 
-function renderCards(containerSelector = 'news__list') {
+function renderCards(containerSelector) {
   const container = document.querySelector(containerSelector);
-  if (!container) return;
-  
+
+
   const cardsArray = Object.entries(cards).map(([key, value]) => ({
     id: key,
     ...value
   }));
-  
+
+
+  console.log('Container element:', container); // ← Проверьте что элемент существует
+  // ...остальной код
+
   container.innerHTML = cardsArray
     .map(card => createCardTemplate(card))
     .join('');
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  renderCards();
-  // Можно добавить обработчики событий
-  
-});
+document.addEventListener('DOMContentLoaded', renderCards('.news__list'));
