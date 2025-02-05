@@ -2,6 +2,7 @@
 @import url("slider.css");
 @import url("main-css.css");
 @import url("footer.css");
+@import url("form.css");
 
 /* Reset and Base Styles */
 * {
@@ -38,11 +39,11 @@ a:hover {
   display: flex;
   bottom: 20px;
   left: 20px;
-  background-color: #1145FA;
+  background-color: #e10600;
   border-radius: 50%;
   outline: none;
   cursor: pointer;
-  color: #FA4411;
+  color: white;
   font-size: 30px;
 }
 

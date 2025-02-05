@@ -1,3 +1,4 @@
+export function preloader(){
 window.addEventListener('load', function() {
   const preloader = document.querySelector('.preloader');
   preloader.classList.add('hidden');
@@ -7,3 +8,4 @@ window.addEventListener('load', function() {
       preloader.remove();
   }, 500);
 });
+}

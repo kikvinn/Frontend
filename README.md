@@ -2,6 +2,10 @@
 
 Каменев Никита Андреевич Си-29
 
+## Информация
+
+Шаблон - [Figma](https://www.figma.com/design/OzNtjv4jsuCSxQmYqpZzDt/Untitled?node-id=0-1&p=f&t=RgLh8Mux8u1R1Y9X-0)
+
 ## пара 2. 16.10.2024
 
 МЫ скопировали репозиторий. Создали файловую структуру проекта. Написали index.html.
