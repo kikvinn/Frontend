@@ -1,8 +1,10 @@
 import {renderCards} from "./cards.js";
 import "./form.js";
 import {preloader} from"./preloader.js"
-import "./swipper.js"
-import "./swipper-lib.js"
+import {swiper} from "./swipper.js"
 
-document.addEventListener('DOMContentLoaded', renderCards('.news__list'));
-preloader()
+document.addEventListener('DOMContentLoaded', () => {
+  preloader();
+  renderCards('.news__list');
+  swiper; // Просто убедитесь что экземпляр создан
+});

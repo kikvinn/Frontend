@@ -2,7 +2,7 @@ document.getElementById('openModal').onclick = function() {
   document.getElementById('modal').style.display = 'block';
 }
 
-document.getElementsByClassName('modal__close')[0].onclick = function() {
+document.getElementById('modalClose').onclick = function() {
   document.getElementById('modal').style.display = 'none';
 }
 

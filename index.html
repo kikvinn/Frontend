@@ -173,48 +173,14 @@
 
       <section class="news main__news">
         <a class="news__link" href=""></a>
+        <!-- в диве новостей будут вводиться новости в виде картинок -->
         <div class="news__list">
-          <div class="news__item">
-            <img class="news__image" src="" alt="" />
-            <a class="news__item-link" href="">Макуин разбился на повороте</a>
-            <p class="news__text">читайте у нас</p>
-          </div>
-          <div class="news__item">
-            <img class="news__image" src="" alt="" />
-            <a class="news__item-link" href="">
-              Гуидо стал топовым автомехаником
-            </a>
-            <p class="news__text">читайте у нас</p>
-          </div>
-          <div class="news__item">
-            <img class="news__image" src="" alt="" />
-            <a class="news__item-link" href="">Тачико стал ведром</a>
-            <p class="news__text">читайте у нас</p>
-          </div>
-          <div class="news__item">
-            <img class="news__image" src="" alt="" />
-            <a class="news__item-link" href="">
-              Буханка запрещена к производству
-            </a>
-            <p class="news__text">читайте у нас</p>
-          </div>
-          <div class="news__item">
-            <img class="news__image" src="" alt="" />
-            <a class="news__item-link" href="">Первая новость</a>
-            <p class="news__text">читайте у нас</p>
-          </div>
+          
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <section class="footer__socials">
-        <a class="footer__social-link" href="">
-          <img class="footer__social-icon" src="" alt="" />
-        </a>
-        <a class="footer__social-link" href=""></a>
-      </section>
-
       <section class="footer__contacts">
         <div class="footer__contacts-item">
           <p class="footer__contacts-title">Телефон и почта</p>
@@ -270,28 +236,53 @@
       </section>
     </footer>
     <div class="modal" id="modal">
-        <div class="modal__content">
-            <span class="modal__close">&times;</span>
-            <h2 class="modal__title">Заявка на покупку билета</h2>
-            <form class="form">
-                <label class="form__label" for="name">Ваше имя</label>
-                <input class="form__input" type="text" id="name" name="name" placeholder="Фамилия Имя Отчество" required>
+      <div class="modal__content">
+        <span class="modal__close" id="modalClose">&times;</span>
+        <h2 class="modal__title">Заявка на покупку билета</h2>
+        <form class="form">
+          <label class="form__label" for="name">Ваше имя</label>
+          <input
+            class="form__input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Фамилия Имя Отчество"
+            required
+          />
 
-                <label class="form__label" for="phone">Телефон</label>
-                <input class="form__input" type="tel" id="phone" name="phone" placeholder="+7" required>
+          <label class="form__label" for="phone">Телефон</label>
+          <input
+            class="form__input"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+7"
+            required
+          />
 
-                <label class="form__label" for="email">Почта</label>
-                <input class="form__input" type="email" id="email" name="email" placeholder="На которую выслать билеты" required>
+          <label class="form__label" for="email">Почта</label>
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="На которую выслать билеты"
+            required
+          />
 
-                <div class="form__actions">
-                    <button class="button button--submit" type="submit">Отправить заявку</button>
-                    <button class="button button--cancel" type="button" id="cancel">Отменить</button>
-                </div>
-            </form>
-        </div>
+          <div class="form__actions">
+            <button class="button button--submit" type="submit">
+              Отправить заявку
+            </button>
+            <button class="button button--cancel" type="button" id="cancel">
+              Отменить
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
     <script type="module" src="./scripts/script.js"></script>
-    <script src="./swipper-lib.js"></script>
+    <script src="./scripts/swipper-lib.js"></script>
     <a class="scroll__up" href="#top">↑</a>
   </body>
 </html>

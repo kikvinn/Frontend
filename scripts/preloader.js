@@ -1,11 +1,12 @@
-export function preloader(){
-window.addEventListener('load', function() {
+export function preloader() {
   const preloader = document.querySelector('.preloader');
-  preloader.classList.add('hidden');
   
-  // Удаляем прелоадер из DOM после анимации
-  setTimeout(() => {
-      preloader.remove();
-  }, 500);
-});
+  // Скрываем прелоадер когда все ресурсы загружены
+  window.addEventListener('load', () => {
+      preloader.classList.add('hidden');
+      
+      setTimeout(() => {
+          preloader.remove();
+      }, 500);
+  });
 }
