@@ -1,0 +1,48 @@
+/* header.css */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 1.25rem 0;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo img {
+    height: 2.5rem;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-link {
+    margin-left: 1.25rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.header__nav-link:hover {
+    color: #5A67D8;
+}
+
+.header__nav-link--sign-up:hover {
+    color: #fff;
+}
+
+.header__nav-link--sign-up {
+    color: #fff;
+    background-color: #3D1EDD;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.header__nav-link--sign-up:hover {
+    background-color: #434190;
+}

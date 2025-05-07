@@ -1,0 +1,82 @@
+/* responsive.css */
+@media (max-width: 80rem) {
+    .quote__icon {
+        left: 2.5rem;
+    }
+
+    .hero__image {
+        width: 90%;
+        padding-bottom: 3.125rem;
+    }
+
+    .info__card-display {
+        margin: 2rem 2rem;
+    }
+
+    .slider__title,
+    .slider__text {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 48rem) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero__title {
+        font-size: 1.75rem;
+    }
+
+    .hero__text {
+        font-size: 0.875rem;
+    }
+
+    .info__features-slider {
+        flex-direction: column;
+        padding: 0 1.25rem;
+    }
+
+    .info__card-display {
+        margin: 1rem 1rem;
+    }
+
+    .connect__content {
+        flex-direction: column;
+    }
+
+    .connect__content img {
+        width: 80%;
+    }
+
+    .hero__img {
+        width: 90%;
+    }
+
+    .cta__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta__image {
+        width: 90%;
+        margin-top: 1.25rem;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.25rem;
+    }
+}
+
+@media (max-width: 32rem) {
+    .header__nav {
+        flex-direction: column;
+        gap: 0.625rem;
+    }
+}

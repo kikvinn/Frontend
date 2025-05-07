@@ -1,0 +1,45 @@
+/* quote.css */
+.quote {
+    background-color: #f8f8f8;
+    padding: 3.75rem 1.25rem;
+    text-align: center;
+    position: relative;
+}
+
+.quote__icon {
+    position: absolute;
+    top: 6.25rem;
+    left: 25rem;
+    width: 3.125rem;
+}
+
+.quote__text {
+    font-size: 1.875rem;
+    line-height: 1.4;
+    color: #080305;
+    max-width: 43.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.quote__author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.quote__author-photo {
+    border-radius: 50%;
+    width: 5rem;
+    margin-bottom: 0.625rem;
+}
+
+.quote__author-name {
+    font-weight: bold;
+    color: #080305;
+}
+
+.quote__author-title {
+    color: #080305;
+    font-size: 0.875rem;
+}

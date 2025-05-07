@@ -1,288 +1,149 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/preloader.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <title>Формула-1</title>
-  </head>
-
-  <body id="top">
-    <div class="preloader">
-      <div class="spinner"></div>
-    </div>
-
-    <header class="header">
-      <div class="header__logo">
-        <img src="./images/logos/F1_logo.svg" alt="Логотип Формулы-1" />
-      </div>
-      <div class="header__right">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobly</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/base/swiper-bundle.min.css"/>
+</head>
+<body>
+<!-- Preloader -->
+<div class="preloader">
+    <div class="preloader__spinner"></div>
+</div>
+<!-- Header -->
+<header class="header">
+    <div class="header__content">
+        <div class="header__logo">
+            <img class="header__logo-img" alt="Jobly Logo" src="img/logo.svg">
+        </div>
         <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="">РУ</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="">EN</a>
-            </li>
-          </ul>
+            <a href="#" class="header__nav-link">For Recruiters</a>
+            <a href="#" class="header__nav-link header__nav-link--sign-up">Sign Up</a>
+            <a href="#" class="header__nav-link header__nav-link--log-in">Log in</a>
         </nav>
-        <div class="header__contacts">
-          <a class="header__phone" href="tel:+77777777777">+77777777777</a>
-          <a class="header__email" href="mailto:F1@mail.ru">F1@mail.ru</a>
-        </div>
-        <button class="header__button" id="openModal">Купить билеты</button>
-      </div>
-    </header>
-
-    <main class="main">
-      <section class="slider main__slider swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide slider__item">
-            <a href="#" class="slider__custom">
-              <img
-                class="slider__custom--img"
-                src="./images/slides/image_slider1.png"
-                alt="slide1"
-              />
-              <!-- <span class="">1</span>  вот тут короче даем так> -->
-              <span class="slider__custom--text">1</span>
-            </a>
-          </div>
-          <div class="swiper-slide slider__item">
-            <a href="#" class="slider__custom">
-              <img
-                class="slider__custom--img"
-                src="./images/slides/image_slider2.png"
-                alt="slide2"
-              />
-
-              <span class="slider__custom--text">2</span>
-            </a>
-          </div>
-          <div class="swiper-slide slider__item">
-            <a href="#" class="slider__custom">
-              <img
-                class="slider__custom--img"
-                src="./images/slides/image_slider3.png"
-                alt="slide3"
-              />
-
-              <span class="slider__custom--text">3</span>
-            </a>
-          </div>
-          <div class="swiper-slide slider__item">
-            <a href="#" class="slider__custom">
-              <img
-                class="slider__custom--img"
-                src="./images/slides/image_slider4.png"
-                alt="slide4"
-              />
-
-              <span class="slider__custom--text">4</span>
-            </a>
-          </div>
-          <div class="swiper-slide slider__item">
-            <a href="#" class="slider__custom">
-              <img
-                class="slider__custom--img"
-                src="./images/slides/image_slider5.png"
-                alt="slide5"
-              />
-
-              <span class="slider__custom--text">5</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="main__title">
-        <h1 class="main__title-heading">Формула 1 - Это страсть</h1>
-        <img
-          class="main__title-image"
-          src="./images/logos/F1.svg"
-          alt="Формула 1 - Это страсть"
-        />
-      </section>
-
-      <section class="info main__info">
-        <h2 class="info__heading">Формула 1 - это главное автомобильное шоу</h2>
-        <p class="info__text">
-          Забудь о рутине! На нашем сайте ты найдешь все, что нужно настоящему
-          фанату Формулы 1: Самые свежие новости: Будь в курсе всех событий — от
-          результатов гонок и последних трансферов до интригующих закулисных
-          историй. Мы следим за каждой секундой и предоставляем тебе самую
-          актуальную и достоверную информацию.Результаты гонок и календарь: Не
-          пропусти ни одной гонки! У нас ты найдешь полный календарь
-          сезона,результаты каждой гонки, а также подробную статистику пилотов и
-          команд. Грандиозные фото и видео: Почувствуй всю мощь и красоту
-          Формулы 1 благодаря нашим эксклюзивным фото и видеоматериалам с трасс
-          мира. Мы предлагаем тебе захватывающие моменты гонок, интервью с
-          пилотами и многое другое.
-        </p>
-      </section>
-
-      <section class="socials main__socials">
-        <a class="socials__link socials__link--text" href="">Как купить</a>
-        <a class="socials__link socials__link--text" href="">Когда гонка</a>
-        <a class="socials__link socials__link--icon" href=""
-          ><img
-            class="socials__icon"
-            src="./images/logos/vk-logo-svgrepo-com.svg"
-            alt="VK"
-        /></a>
-        <a class="socials__link socials__link--icon" href=""
-          ><img
-            class="socials__icon"
-            src="./images/logos/telegram-svgrepo-com.svg"
-            alt="TG"
-        /></a>
-        <a class="socials__link socials__link--icon" href=""
-          ><img
-            class="socials__icon"
-            src="./images/logos/youtube-svgrepo-com.svg"
-            alt="YT"
-        /></a>
-      </section>
-
-      <section class="records main__records">
-        <a class="records__link" href="">Записи прошлых гонок</a>
-        <ul class="records__list">
-          <li class="records__item">
-            <a class="records__item-link" href="">запись за 20.04</a>
-          </li>
-          <li class="records__item">
-            <a class="records__item-link" href="">запись за 21.05</a>
-          </li>
-          <li class="records__item">
-            <a class="records__item-link" href="">запись за 22.06</a>
-          </li>
-          <li class="records__item">
-            <a class="records__item-link" href="">запись за 23.07</a>
-          </li>
-          <li class="records__item">
-            <a class="records__item-link" href="">запись за 24.08</a>
-          </li>
-        </ul>
-      </section>
-
-      <section class="news main__news">
-        <a class="news__link" href=""></a>
-        <!-- в диве новостей будут вводиться новости в виде картинок -->
-        <div class="news__list">
-          
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <section class="footer__contacts">
-        <div class="footer__contacts-item">
-          <p class="footer__contacts-title">Телефон и почта</p>
-          <ul class="footer__contacts-list">
-            <li class="footer__contacts-list-item">
-              <a class="footer__contacts-link" href="">+12345678987</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__contacts-item">
-          <p class="footer__contacts-title">Адреса</p>
-          <ul class="footer__contacts-list">
-            <li class="footer__contacts-list-item">
-              <p class="footer__contacts-text">Малая Пионерская</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="footer__legal">
-        <div class="footer__legal-item">
-          <p class="footer__legal-title">Юр. Информация</p>
-          <ul class="footer__legal-list">
-            <li class="footer__legal-list-item">
-              <a class="footer__legal-link" href="">Публичная оферта</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__legal-item">
-          <p class="footer__legal-title">Рекламодателям</p>
-          <ul class="footer__legal-list">
-            <li class="footer__legal-list-item">
-              <a class="footer__legal-link" href="">Договор о erid</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__legal-item">
-          <p class="footer__legal-title">Организаторам</p>
-          <ul class="footer__legal-list">
-            <li class="footer__legal-list-item">
-              <a class="footer__legal-link" href="">Правила безопасности</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__legal-item">
-          <p class="footer__legal-title">Покупателям</p>
-          <ul class="footer__legal-list">
-            <li class="footer__legal-list-item">
-              <a class="footer__legal-link" href="">Льготы</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </footer>
-    <div class="modal" id="modal">
-      <div class="modal__content">
-        <span class="modal__close" id="modalClose">&times;</span>
-        <h2 class="modal__title">Заявка на покупку билета</h2>
-        <form class="form">
-          <label class="form__label" for="name">Ваше имя</label>
-          <input
-            class="form__input"
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Фамилия Имя Отчество"
-            required
-          />
-
-          <label class="form__label" for="phone">Телефон</label>
-          <input
-            class="form__input"
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="+7"
-            required
-          />
-
-          <label class="form__label" for="email">Почта</label>
-          <input
-            class="form__input"
-            type="email"
-            id="email"
-            name="email"
-            placeholder="На которую выслать билеты"
-            required
-          />
-
-          <div class="form__actions">
-            <button class="button button--submit" type="submit">
-              Отправить заявку
-            </button>
-            <button class="button button--cancel" type="button" id="cancel">
-              Отменить
-            </button>
-          </div>
-        </form>
-      </div>
     </div>
-    <script type="module" src="./scripts/script.js"></script>
-    <script src="./scripts/swipper-lib.js"></script>
-    <a class="scroll__up" href="#top">↑</a>
-  </body>
+</header>
+<main class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Candidates with Creative & Engineering Backgrounds</h1>
+            <p class="hero__text">This is the place to show yourself and land entry level jobs at cutting-edge companies. Launch your career here.</p>
+            <a href="#" class="hero__cta hero__cta--can">Join Now</a>
+            <p class="hero__text">Looking for candidates? <a href="#" class="hero__link">Hire now</a></p>
+            <div class="hero__gradient">
+                <img class="hero__image" alt="Hero Image" src="img/hero-image.png">
+            </div>
+        </div>
+    </section>
+    <!-- Quote Section -->
+    <section class="quote">
+        <div class="quote__content">
+            <img class="quote__icon" alt="Quote Icon" src="img/mask.png">
+            <div class="quote__author">
+                <img src="img/avatar.png" alt="Zhao Cui" class="quote__author-photo">
+                <blockquote class="quote__text">
+                    <p>Creating an Online Presence is Hard.</p>
+                    <p>Jobly Makes it Easy for Recruiters to See You.</p>
+                </blockquote>
+                <p class="quote__author-name">Zhao Cui</p>
+                <span class="quote__author-title">Founder at Jobly.co</span>
+            </div>
+        </div>
+    </section>
+    <!-- Info Section -->
+    <section class="info">
+        <h2 class="info__title">Everything you want to know in one place.</h2>
+        <div class="info__card-display"></div>
+        <div class="info__features-slider">
+            <div class="info__feature">
+                <h3 class="info__feature-title">Professional Profile 1</h3>
+                <p class="info__feature-text">1. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+            </div>
+            <div class="info__feature">
+                <h3 class="info__feature-title">Professional Profile 2</h3>
+                <p class="info__feature-text">2. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+            </div>
+            <div class="info__feature">
+                <h3 class="info__feature-title">Professional Profile 3</h3>
+                <p class="info__feature-text">3. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+            </div>
+        </div>
+    </section>
+    <!-- Connect Section -->
+    <section class="connect">
+        <div class="connect__content">
+            <img class="connect__image" alt="Connect Image" src="img/connect-image.png">
+            <div class="connect__text">
+                <h3 class="connect__title">Connect With Recruiter</h3>
+                <p class="connect__description">Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Slider Section -->
+    <section class="slider">
+        <h3 class="slider__title">Connect With Slider</h3>
+        <p class="slider__text">Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
+        <div class="swiper-wrapper-container">
+            <div class="swiper-button swiper-button-prev"></div>
+            <div class="swiper-container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/info-image.png" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="img/hero-image.png" alt="Image 2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta__content">
+            <div class="cta__text">
+                <h2 class="cta__title">Set up your profile. Let jobs find you.</h2>
+                <a href="#" class="cta__cta-button cta__cta-button--primary">Join Now</a>
+            </div>
+            <img class="cta__image" alt="CTA Image" src="img/job-image.png">
+        </div>
+    </section>
+</main>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__left">
+            <img class="footer__logo" alt="Jobly Logo" src="img/logo2.png">
+            <p class="footer__text">We support a pool of diverse young creatives and engineers.</p>
+            <p class="footer__text">© 2023 Jobly.co Copyright and All rights reserved.</p>
+        </div>
+        <div class="footer__right">
+            <a href="#" class="footer__link">Terms and Conditions</a>
+            <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+<!-- Form -->
+<div class="modal-overlay modal-overlay--hidden">
+    <div class="modal">
+        <form class="modal__form">
+            <h2 class="modal__title">Login/Register</h2>
+            <label for="name" class="modal__label">Name:</label>
+            <input type="text" id="name" name="name" class="modal__input" required>
+            <label for="email" class="modal__label">Email:</label>
+            <input type="email" id="email" name="email" class="modal__input" required>
+            <label for="password" class="modal__label">Password:</label>
+            <input type="password" id="password" name="password" class="modal__input" required>
+            <div class="modal__buttons">
+                <button type="submit" class="modal__button modal__button--primary">OK</button>
+                <button type="button" class="modal__button modal__button--secondary modal__button--cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="scripts/swiper-bundle.min.js"></script>
+<script src="scripts/scripts.js"></script>
+<script src="ts/main.js"></script>
+</body>
 </html>
